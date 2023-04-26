@@ -23,7 +23,7 @@ export default {
 
 .background{
     background-color: $lightgrey;
-    height: 240px;
+    height: 320px;
 
     p{
         color: $grey;

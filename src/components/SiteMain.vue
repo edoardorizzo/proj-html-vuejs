@@ -1,11 +1,15 @@
 <script>
 import HeroComp from './HeroComp.vue';
 import PlaceToBeComp from './PlaceToBeComp.vue';
+import LastNewsComp from './LastNewsComp.vue';
+
 export default {
     name: 'SiteMain',
     components:{
         HeroComp,
         PlaceToBeComp,
+        LastNewsComp,
+
     }
 
 }
@@ -15,6 +19,7 @@ export default {
     <main>
         <HeroComp></HeroComp>
         <PlaceToBeComp></PlaceToBeComp>
+        <LastNewsComp></LastNewsComp>
     </main>
 </template>
 
