@@ -44,6 +44,7 @@ header {
     button {
         background-color: $black;
         color: $white;
+        font-size: 12px;
     }
 }
 </style>

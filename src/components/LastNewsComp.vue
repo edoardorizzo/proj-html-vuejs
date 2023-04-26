@@ -1,10 +1,13 @@
 <script>
 import LastNewsCardComp from './LastNewsCardComp.vue';
 import LastNewsBigCardComp from './LastNewsBigCardComp.vue';
+import TutorialComp from './TutorialComp.vue'
+
 export default {
     components:{
         LastNewsCardComp,
         LastNewsBigCardComp,
+        TutorialComp,
     },
     name: 'LastNewsComp',
 }
@@ -31,6 +34,7 @@ export default {
                 <LastNewsCardComp></LastNewsCardComp>
                 <LastNewsCardComp></LastNewsCardComp>
                 <LastNewsCardComp></LastNewsCardComp>
+                <TutorialComp></TutorialComp>
             </div>
             
         </div>
