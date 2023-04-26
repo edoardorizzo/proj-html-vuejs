@@ -11,7 +11,7 @@ export default {
 
 <template>
     <div class="container mt-5">
-        <div class="top_news d-flex justify-content-center align-items-center">
+        <div class="top_news d-flex justify-content-center align-items-center mb-2">
             <div class="title_container text-center">
                 <span><strong>PHASELLUS EGET METUS</strong></span>
                 <h3 class="mt-2 fw-bold">All the latest news</h3>
@@ -22,6 +22,8 @@ export default {
         </div>
         <div class="body_news">
             <div class="row">
+                <LastNewsCardComp></LastNewsCardComp>
+                <LastNewsCardComp></LastNewsCardComp>
                 <LastNewsCardComp></LastNewsCardComp>
             </div>
             
