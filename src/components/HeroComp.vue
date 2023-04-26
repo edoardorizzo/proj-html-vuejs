@@ -7,14 +7,14 @@ export default {
 
 <template>
     <div class="hero d-flex justify-content-center align-items-center">
-            <div class="container">
-                <div class="hero_content ">
-                    <h1>Tech Forum!</h1>
-                    <p>Discuss all the new Technology news and trends</p>
-                    <button class="border-0 p-2">Get Avada Now</button>
-                </div>
+        <div class="container">
+            <div class="hero_content ">
+                <h1>Tech Forum!</h1>
+                <p>Discuss all the new Technology news and trends</p>
+                <button class="border-0 p-2 ps-4 pe-4">Get Avada Now</button>
             </div>
         </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>

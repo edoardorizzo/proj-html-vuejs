@@ -22,7 +22,7 @@ export default {
             <div class="right_container d-flex justify-content-center align-items-center">
                 <div class="navbar d-flex justify-content-center align-items-center fs-7">
                     <a v-for="voice in state.voices" class="text-decoration-none ms-4" href=""> {{ voice }}</a>
-                    <button class="ms-4 border-0 p-2">JOIN US</button>
+                    <button class="ms-4 border-0 p-2 ps-4 pe-4">JOIN US</button>
                 </div>
             </div>
         </div>

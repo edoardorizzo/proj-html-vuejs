@@ -1,8 +1,10 @@
 <script>
 import LastNewsCardComp from './LastNewsCardComp.vue';
+import LastNewsBigCardComp from './LastNewsBigCardComp.vue';
 export default {
     components:{
         LastNewsCardComp,
+        LastNewsBigCardComp,
     },
     name: 'LastNewsComp',
 }
@@ -22,6 +24,10 @@ export default {
         </div>
         <div class="body_news">
             <div class="row">
+                <LastNewsCardComp></LastNewsCardComp>
+                <LastNewsCardComp></LastNewsCardComp>
+                <LastNewsCardComp></LastNewsCardComp>
+                <LastNewsBigCardComp></LastNewsBigCardComp>
                 <LastNewsCardComp></LastNewsCardComp>
                 <LastNewsCardComp></LastNewsCardComp>
                 <LastNewsCardComp></LastNewsCardComp>
