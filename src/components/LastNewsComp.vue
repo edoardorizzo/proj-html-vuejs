@@ -1,15 +1,22 @@
 <script>
+import { state } from '../state';
+
 import LastNewsCardComp from './LastNewsCardComp.vue';
 import LastNewsBigCardComp from './LastNewsBigCardComp.vue';
-import TutorialComp from './TutorialComp.vue'
+import TutorialComp from './TutorialComp.vue';
 
 export default {
+    name: 'LastNewsComp',
     components:{
         LastNewsCardComp,
         LastNewsBigCardComp,
         TutorialComp,
     },
-    name: 'LastNewsComp',
+    data(){
+        return{
+            state,
+        }
+    }
 }
 </script>
 
@@ -27,13 +34,8 @@ export default {
         </div>
         <div class="body_news">
             <div class="row">
-                <LastNewsCardComp></LastNewsCardComp>
-                <LastNewsCardComp></LastNewsCardComp>
-                <LastNewsCardComp></LastNewsCardComp>
+                <LastNewsCardComp/>
                 <LastNewsBigCardComp></LastNewsBigCardComp>
-                <LastNewsCardComp></LastNewsCardComp>
-                <LastNewsCardComp></LastNewsCardComp>
-                <LastNewsCardComp></LastNewsCardComp>
                 <TutorialComp></TutorialComp>
             </div>
             

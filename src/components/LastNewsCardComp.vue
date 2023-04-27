@@ -1,6 +1,15 @@
 <script>
+import { state } from '../state';
 export default {
     name: 'LastNewsCardComp',
+    props:{
+        new: Object
+    },
+    data(){
+        return{
+            state
+        }
+    }
 }
 </script>
 

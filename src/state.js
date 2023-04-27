@@ -35,7 +35,45 @@ export const state = reactive({
             img: '/icons/wrench-solid.svg',
             title: 'Tutorials & Guides'
         },
-        
-        
-    ]
+
+
+    ],
+    news: [
+        {
+            img: '/img/post_feat_img_25-320x202.jpg',
+            title: 'Lorem Ipsum',
+            date: 'October 11th, 2015 | 2 Comments',
+            paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'
+        },
+        {
+            img: '/img/post_feat_img_24-320x202.jpg',
+            title: 'Lorem Ipsum',
+            date: 'October 11th, 2015 | 2 Comments',
+            paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'
+        },
+        {
+            img: '/img/post_feat_img_23-147x118.jpg',
+            title: 'Lorem Ipsum',
+            date: 'October 11th, 2015 | 2 Comments',
+            paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'
+        },
+        {
+            img: '/img/post_feat_img_22-320x202.jpg',
+            title: 'Lorem Ipsum',
+            date: 'October 11th, 2015 | 2 Comments',
+            paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'
+        },
+        {
+            img: '/img/post_feat_img_21-320x202.jpg',
+            title: 'Lorem Ipsum',
+            date: 'October 11th, 2015 | 2 Comments',
+            paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'
+        },
+        {
+            img: '/img/post_feat_img_25-320x202.jpg',
+            title: 'Lorem Ipsum',
+            date: 'October 11th, 2015 | 2 Comments',
+            paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'
+        }
+    ],
 })
