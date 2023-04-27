@@ -2,9 +2,6 @@
 import { state } from '../state';
 export default {
     name: 'LastNewsCardComp',
-    props:{
-        new: Object
-    },
     data(){
         return{
             state
@@ -14,14 +11,14 @@ export default {
 </script>
 
 <template>
-    <div class="col-sm-4">
+    <div class="col-sm-4" v-for="(latestNew, index) in 3">
         <div class="card border-0">
-            <img class="mb-2" src="/img/post_feat_img_20-147x118.jpg" alt="">
-            <h4>Lorem Ipsum</h4>
+            <img class="mb-2" :src=state.latestNews[index].img alt="">
+            <h4>{{ state.latestNews[index].title }}</h4>
             <div class="card_body d-flex mb-2">
-                <span>Lorem ipsum</span><span>| Comments</span>
+                <span>{{ state.latestNews[index].date }}</span>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!</p>
+            <p>{{ state.latestNews[index].paragraph }}</p>
         </div>
     </div>
 </template>

@@ -38,7 +38,7 @@ export const state = reactive({
 
 
     ],
-    news: [
+    latestNews: [
         {
             img: '/img/post_feat_img_25-320x202.jpg',
             title: 'Lorem Ipsum',
@@ -52,7 +52,7 @@ export const state = reactive({
             paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'
         },
         {
-            img: '/img/post_feat_img_23-147x118.jpg',
+            img: '/img/post_feat_img_20-320x202.jpg',
             title: 'Lorem Ipsum',
             date: 'October 11th, 2015 | 2 Comments',
             paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'

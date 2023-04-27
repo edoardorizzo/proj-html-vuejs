@@ -7,13 +7,13 @@ import TutorialComp from './TutorialComp.vue';
 
 export default {
     name: 'LastNewsComp',
-    components:{
+    components: {
         LastNewsCardComp,
         LastNewsBigCardComp,
         TutorialComp,
     },
-    data(){
-        return{
+    data() {
+        return {
             state,
         }
     }
@@ -36,9 +36,10 @@ export default {
             <div class="row">
                 <LastNewsCardComp/>
                 <LastNewsBigCardComp></LastNewsBigCardComp>
+                <LastNewsCardComp/>
                 <TutorialComp></TutorialComp>
             </div>
-            
+
         </div>
     </div>
 </template>
@@ -47,9 +48,7 @@ export default {
 <style lang="scss" scoped>
 @use '../partials/partials.scss' as *;
 
-hr{
+hr {
     color: $orange;
 }
-
-
 </style>
