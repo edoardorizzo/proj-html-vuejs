@@ -2,6 +2,8 @@
 import HeroComp from './HeroComp.vue';
 import PlaceToBeComp from './PlaceToBeComp.vue';
 import LastNewsComp from './LastNewsComp.vue';
+import ReadBlogComp from './ReadBlogComp.vue';
+import ForumComp from './ForumComp.vue';
 
 export default {
     name: 'SiteMain',
@@ -9,6 +11,8 @@ export default {
         HeroComp,
         PlaceToBeComp,
         LastNewsComp,
+        ReadBlogComp,
+        ForumComp
 
     }
 
@@ -20,6 +24,9 @@ export default {
         <HeroComp></HeroComp>
         <PlaceToBeComp></PlaceToBeComp>
         <LastNewsComp></LastNewsComp>
+        <ReadBlogComp></ReadBlogComp>
+        <ForumComp></ForumComp>
+
     </main>
 </template>
 
