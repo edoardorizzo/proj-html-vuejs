@@ -5,6 +5,7 @@ import LastNewsComp from './LastNewsComp.vue';
 import ReadBlogComp from './ReadBlogComp.vue';
 import ForumComp from './ForumComp.vue';
 import FullScreenComp from './FullScreenComp.vue';
+import NewsLetterComp from './NewsLetterComp.vue'
 
 export default {
     name: 'SiteMain',
@@ -15,6 +16,7 @@ export default {
         ReadBlogComp,
         ForumComp,
         FullScreenComp,
+        NewsLetterComp,
 
     }
 
@@ -30,6 +32,7 @@ export default {
         <ForumComp></ForumComp>
         <ReadBlogComp></ReadBlogComp>
         <FullScreenComp></FullScreenComp>
+        <NewsLetterComp></NewsLetterComp>
 
     </main>
 </template>
