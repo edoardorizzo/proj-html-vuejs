@@ -4,6 +4,7 @@ import PlaceToBeComp from './PlaceToBeComp.vue';
 import LastNewsComp from './LastNewsComp.vue';
 import ReadBlogComp from './ReadBlogComp.vue';
 import ForumComp from './ForumComp.vue';
+import FullScreenComp from './FullScreenComp.vue';
 
 export default {
     name: 'SiteMain',
@@ -12,7 +13,8 @@ export default {
         PlaceToBeComp,
         LastNewsComp,
         ReadBlogComp,
-        ForumComp
+        ForumComp,
+        FullScreenComp,
 
     }
 
@@ -26,6 +28,8 @@ export default {
         <LastNewsComp></LastNewsComp>
         <ReadBlogComp></ReadBlogComp>
         <ForumComp></ForumComp>
+        <ReadBlogComp></ReadBlogComp>
+        <FullScreenComp></FullScreenComp>
 
     </main>
 </template>

@@ -12,7 +12,7 @@ export default {
 
 
 <template>
-    <header>
+    <header class="d-flex justify-content-center align-items-center">
         <div class="container d-flex justify-content-between align-items-center pt-1 pb-1">
             <div class="left_container">
                 <div class="header_logo w-75">
