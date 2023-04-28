@@ -11,7 +11,12 @@ export default {
             <div class="hero_content ">
                 <h1>Tech Forum!</h1>
                 <p>Discuss all the new Technology news and trends</p>
-                <button class="border-0 p-2 ps-4 pe-4">Get Avada Now</button>
+                <button class="border-0 p-2 ps-4 pe-4 d-flex align-items-center justify-content-between">
+                    Get Avada Now
+                    <div class="icon_container ms-3">
+                        <img src="/icons/chevron-right-solid.svg" alt="">
+                    </div>
+                </button>
             </div>
         </div>
     </div>
@@ -36,7 +41,13 @@ export default {
         button {
             background-color: $azure;
             color: $white;
+
+            .icon_container{
+                width: 10px;
+            }
         }
+
+
     }
 }
 </style>
