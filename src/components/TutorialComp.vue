@@ -2,7 +2,7 @@
 import TutorialLittleCardComp from './TutorialLittleCardComp.vue';
 
 export default {
-    components:{
+    components: {
         TutorialLittleCardComp,
     },
     name: 'TutorialComp',
@@ -21,7 +21,12 @@ export default {
                 <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, corrupti. Tenetur harum fuga
                     quidem obcaecati, neque minima quaerat accusamus ea sint, sequi enim! Officia incidunt aut, quaerat
                     architecto aliquam cum.</p>
-                <button class="border-0 p-2 ps-4 pe-4">READ MORE</button>
+                <button class="border-0 p-2 ps-4 pe-4 d-flex align-items-center justify-content-between">
+                    READ MORE
+                    <div class="icon_container ms-3">
+                        <img src="/icons/chevron-right-solid.svg" alt="">
+                    </div>
+                </button>
             </div>
             <div class="tutorial_guides ms-3 col-4">
                 <h4>Tutorial & Guides</h4>
@@ -49,6 +54,10 @@ export default {
     button {
         background-color: $black;
         color: $white;
+
+        .icon_container {
+            width: 10px;
+        }
     }
 }
 </style>
