@@ -76,4 +76,18 @@ export const state = reactive({
             paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, odio!'
         }
     ],
+    voices: [
+        {
+            title: 'POPULAR TOPICS',
+            topics: ['Nam dolor volo massa auctor semper', 'Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum']
+        },
+        {
+            title: 'RECENT TOPICS',
+            topics: ['Nam dolor volo massa auctor semper', 'Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum']
+        },
+        {
+            title: 'LATEST REPLIES',
+            topics: ['Nam dolor volo massa auctor semper', 'Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum']
+        },
+    ]
 })

@@ -2,12 +2,14 @@
 import { state } from './state';
 import SiteHeader from './components/SiteHeader.vue';
 import SiteMain from './components/SiteMain.vue';
+import SiteFooter from './components/SiteFooter.vue';
 
 export default {
   components: {
     SiteHeader,
     SiteMain,
-  },
+    SiteFooter
+},
   data(){
     return{
       state,
@@ -22,8 +24,7 @@ export default {
 
   <SiteMain></SiteMain>
 
-
-  <footer></footer>
+  <SiteFooter></SiteFooter>
 </template>
 
 
